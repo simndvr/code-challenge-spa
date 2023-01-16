@@ -1,3 +1,7 @@
+## Vane Weather App
+This application uses the OpenWeather API to fetch weather forecasts by city.
+
+
 ## Started
 ```bash
 yarn
