@@ -5,7 +5,11 @@
         <font-awesome-icon class="icon text-9xl mt-10" icon="fa-solid fa-cloud-bolt"/>
       </div>
       
-      <div class="mt-5"><span class="bg-gradient-to-t from-orange-600 to-sky-400 bg-clip-text text-transparent font-black text-4xl">Vane</span></div>
+      <div class="mt-5">
+        <span class="bg-gradient-to-t from-orange-600 to-sky-400 bg-clip-text text-transparent font-black text-4xl">
+          Vane
+        </span>
+      </div>
       <div class="flex flex-col mt-5">
         <span class="text-lg">Welcome to Vane!</span>
         <span class="mt-2 w-full lg:w-2/3 max-w-lg mx-auto">Please login using your Github credentials to use the application and view the weather in your city.</span>

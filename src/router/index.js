@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { authGuard } from "@auth0/auth0-vue";
-import { useAuth0 } from "@auth0/auth0-vue";
 
 import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";

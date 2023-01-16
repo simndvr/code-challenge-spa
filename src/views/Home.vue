@@ -48,7 +48,7 @@ import { ref } from 'vue';
 export default {
   setup() {
     const city = ref('')
-    const { user, isAuthenticated } = useAuth0();
+    const { user } = useAuth0();
 
     async function displayWeather() {
       router.push({ path: '/weather', query: { city: city.value } })
@@ -57,8 +57,7 @@ export default {
     return {
       displayWeather,
       city,
-      user,
-      isAuthenticated,
+      user
     };
   }
 };
